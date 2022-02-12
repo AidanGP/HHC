@@ -1,0 +1,22 @@
+
+
+.faq-q {
+    background-color: transparent;
+}
+
+
+.faq-body {
+    background-color: transparent;
+}
+
+.faq-questions {
+    background-color: transparent;
+}
+
+
+.faq-container {
+    background-image: -webkit-linear-gradient(to right, #198754 20%, #C1CF63 100%);
+    background-image: -moz-linear-gradient(to right, #198754 20%, #C1CF63 100%);
+    background-image: linear-gradient(to right, #198754 20%, #C1CF63 100%);
+    border-radius: 5px;
+}

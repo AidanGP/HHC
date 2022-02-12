@@ -1,0 +1,10 @@
+.percent {
+    font-size: 64px;
+    text-align: center;
+    justify-content: center;
+    color: var(--accent);
+}
+
+.percent-box {
+    padding-right: 0;
+}
