@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.d5879946.css",
-    "main.js": "/static/js/main.5c7feeab.js",
-    "static/js/787.ed96d420.chunk.js": "/static/js/787.ed96d420.chunk.js",
+    "main.js": "/static/js/main.afcd554d.js",
     "static/media/sewer_concept.png": "/static/media/sewer_concept.a6dd55c33ceb13e58634.png",
+    "static/media/econ.png": "/static/media/econ.f7b47fec5b4ca5659ad9.png",
+    "static/media/harold.png": "/static/media/harold.28536a16c8a9d587e27a.png",
     "static/media/hedgehogs.gif": "/static/media/hedgehogs.ffdd313cbbd5d11a5668.gif",
     "static/media/access.png": "/static/media/access.a274f9081cd4dde8aa6a.png",
     "static/media/events.png": "/static/media/events.339cc5dd065014fe52bb.png",
@@ -25,11 +26,10 @@
     "static/media/instagram-line.png": "/static/media/instagram-line.c2e6fed6a90dd4078619.png",
     "index.html": "/index.html",
     "main.d5879946.css.map": "/static/css/main.d5879946.css.map",
-    "main.5c7feeab.js.map": "/static/js/main.5c7feeab.js.map",
-    "787.ed96d420.chunk.js.map": "/static/js/787.ed96d420.chunk.js.map"
+    "main.afcd554d.js.map": "/static/js/main.afcd554d.js.map"
   },
   "entrypoints": [
     "static/css/main.d5879946.css",
-    "static/js/main.5c7feeab.js"
+    "static/js/main.afcd554d.js"
   ]
 }
