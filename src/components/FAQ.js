@@ -53,24 +53,24 @@ const FAQ = () => {
                         <FAQItem
                             n="1"
                             question="Pre-Sale Mint Cost?"
-                            answer={["TBD"]}
+                            answer={["0.02 Ξ"]}
                         />
                         <FAQItem
                             n="2"
                             question="Public Mint Cost?"
-                            answer={["TBD"]}
+                            answer={["0.04 Ξ"]}
                         />
                         <FAQItem
                             n="3"
                             question="Mint Date"
-                            answer={["PRE-SALE MINT: TBD",
-                                "PUBLIC MINT: TBD"]}
+                            answer={["PRE-SALE MINT: April 13th",
+                                "PUBLIC MINT: April 14th"]}
                         />
                         <FAQItem
                             n="4"
                             question="How many can we mint per wallet?"
-                            answer={["Pre-Sale: 3 Max per wallet",
-                                "Public: 8 Max per wallet"]}
+                            answer={["Pre-Sale: 5 Max per wallet",
+                                "Public: No Limit :)"]}
                         />
                         <FAQItem
                             n="5"

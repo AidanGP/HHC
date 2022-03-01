@@ -88,7 +88,7 @@ const Booth = () => {
                         walletAddress={walletAddress}
                     />
                 }
-                {isMember == false &&
+                {isMember === false &&
                     <MemberResponse
                         member={false}
                         walletAddress={walletAddress}

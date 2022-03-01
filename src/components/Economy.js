@@ -1,10 +1,9 @@
 import React from 'react';
 import './Welcome.css';
-import { Container, Row, Col, Image, Button } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 
-import welcome_1 from '../images/welcome_icons/1.png';
-import welcome_2 from '../images/welcome_icons/2.png';
-import welcome_3 from '../images/welcome_icons/3.png';
+import econ from '../images/econ.png'
+import harold from '../images/harold.png'
 
 import Header from './Header';
 import HR from './Divider';
@@ -15,26 +14,20 @@ const Economy = () => {
             <HR />
             <Container id="Econ" className="section-container">
                 <Row>
-                    <Col xs={10} md={6}>
-                        <Row>
-                            <Header heading="Economy System"
-                                content={["The Hungover Hedgehogs Club is a collection of 5,555 NFTs with a unique style of art never before seen in other NFT collections. With over 150 different traits, an insane backstory and our unique style of vector art, our project and community stands out above many others.",
-                                    "HHC's $THORN token is also set to launch soon after mint, holders will be able to purchase HHC merchandise as well as purchase whitelist passes for future Hungover projects and more.",
-                                    "The discord server launched yesterday and their whitelist has just opened up with 100/755 WL spots already taken in the first 2 hours! DONT MISS OUT ON THIS OPPORTUNITY!!"]}
-                            />
-                        </Row>
-                        <Row>
-                            <Col><Image className="econ-img" src={welcome_1} /></Col>
-                            <Col><Image className="econ-img" src={welcome_2} /></Col>
-                            <Col><Image className="econ-img" src={welcome_3} /></Col>
-                        </Row>
+                    <Col xs={11} md={7}>
+                        <Header heading="Economy System"
+                            content={["The Sewers is a underground society filled with lazy, bored and hungover animals including our beloved hedgehogs.",
+                                "Our economy system allows members to !work for precious $THRON, play games and gamble with $THORN in our very own club 'The Hedge' and buy various items from Harold's Scrap Shop, unless of course you spent in on alcohol... ",
+                                "Members are able to spend their hard earned $THORN to get: Whitelist Spots, FREE Mint Passes, Raffle Tickets and much more items to come!"]}
+                        />
+                        <Image width="100%" src={econ} style={{ borderRadius: "12px", marginTop: "16px", marginBottom: "16px" }} />
                     </Col>
-                    <Col>
-                        <Row>
-                            <Image src={welcome_1} style={{ minHeight: "100%" }} />
-                        </Row>
+                    <Col xs={7} md={5}>
+                        <Image style={{ maxWidth: "100%", borderRadius: "3%" }} src={harold} />
                     </Col>
                 </Row>
+
+                {/* <Col><Image width="100%" src={welcome_1} /></Col> */}
             </Container >
         </>
     )
